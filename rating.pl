@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 
 foreach (1..100) {
 `rm index*`;
@@ -29,3 +29,4 @@ $response = `echo -n "$query" | POST -H 'Connection: keep-alive' -H 'Host: www.m
 print $response . "\n";
 sleep int(rand()*50);
 }
+
