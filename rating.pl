@@ -46,7 +46,3 @@ print $response . "\n";
 
 
 
-__END__
-
-
-hello world 
